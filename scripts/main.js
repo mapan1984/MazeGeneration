@@ -2,7 +2,7 @@ import Game from './game.js'
 import Dungeon from './dungeon.js'
 
 
-let game = new Game()
+let game = new Game(24)
 
 let dungeon = new Dungeon(500, 500, 25, '#dungeon')
 
